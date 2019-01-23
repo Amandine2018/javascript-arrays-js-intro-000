@@ -40,6 +40,6 @@ function removeElementFromBeginningOfArray(array) {
  }
 
 function removeElementFromEndOfArray(array) {
-  var tempArray = array.slice(array.length -1);
+  var tempArray = array.slice(0, array.length -1);
   return tempArray;
 }
