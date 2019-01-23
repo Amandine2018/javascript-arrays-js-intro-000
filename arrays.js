@@ -2,7 +2,7 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
 function addElementToBeginningOfArray(array, element) {
   var tempArray = [element, ...chocolateBars];
-  return tempArray;
+  return array;
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
@@ -12,7 +12,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 
 function addElementToEndOfArray(array, element) {
   var tempArray = [...chocolateBars, element];
-  return tempArray;
+  return array;
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
